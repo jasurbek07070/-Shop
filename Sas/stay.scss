@@ -1,0 +1,179 @@
+@import 'rang';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: $ochkul;
+}
+
+nav {
+    position: absolute;
+    left: 200px;
+    display: flex;
+    width: 80%;
+    height: 50px;
+    background: $kulirang;
+    border-radius: 20px;
+    margin: 30px;
+    align-items: center;
+    column-gap: 20px;
+    box-shadow: 0px 0px 10px 10px $kulirang;
+    position: fixed;
+}
+
+.logo>h1 {
+    color: $oq;
+    margin-left: 10px;
+}
+
+
+
+.s {
+    margin-left: 490px;
+}
+
+a {
+    text-decoration: none;
+    color: $oq;
+
+}
+
+input {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background: $oq;
+    left: 900px;
+    border-radius: 20px;
+
+}
+
+::placeholder {
+    color: $qora;
+}
+
+h1 {
+    color: $oq;
+}
+
+.rasm img {
+    width: 95%;
+    height: 600px;
+    position: absolute;
+    left: 40px;
+}
+
+.otshma {
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.s1 {
+    border-radius: 20px;
+    border: 3px solid $oq;
+    height: 330px;
+    text-align: center;
+    column-gap: 30px;
+}
+
+.s1 img {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+p {
+    color: $oq;
+}
+
+.otishma2 {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    margin: 35px;
+}
+
+.h1 {
+    position: absolute;
+    top: 1800px;
+    left: 580px;
+}
+
+.Qorqinchili {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    margin: 35px;
+}
+
+.Qorqinchili1 {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    margin: 35px;
+}
+
+.Ilovalar {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    margin: 35px;
+}
+
+.Ilovalar1 {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    margin: 35px;
+}
+
+.bg img {
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+}
+
+.bg {
+    display: flex;
+}
+
+.sd {
+    position: absolute;
+    top: 410px;
+    left: 460px;
+    font-size: 30px;
+}
+
+button {
+    position: absolute;
+    top: 460px;
+    left: 450px;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    background: $kulirang;
+    color: $oq;
+    background: $kuk;
+}
+
+.nb {
+    display: flex;
+}
+
+.ros img {
+    width: 700px;
+    height: 400px;
+}
+
+.xs img {
+    width: 400px;
+    height: 900px;
+}
